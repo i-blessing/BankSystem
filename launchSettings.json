@@ -1,0 +1,18 @@
+{
+  "profiles": {
+    "Docker Compose": {
+      "commandName": "DockerCompose",
+      "publishAllPorts": true,
+      "useSSL": true,
+      "httpPort": 5000,
+      "sslPort": 5001,
+      "composeLaunchAction": "LaunchBrowser",
+      "composeLaunchServiceName": "banksystem.api",
+      "composeLaunchUrl": "{Scheme}://localhost:{ServicePort}/swagger",
+      "commandVersion": "1.0",
+      "serviceActions": {
+        "banksystem.api": "StartDebugging"
+      }
+    }
+  }
+}

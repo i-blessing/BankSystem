@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankSystem.API", "BankSystem.API\BankSystem.API.csproj", "{6D5523B2-67BD-4CF6-ACAF-74E6AB84DD58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankSystem.API", "BankSystem.API\BankSystem.API.csproj", "{6D5523B2-67BD-4CF6-ACAF-74E6AB84DD58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankSystem.Business", "BankSystem.Business\BankSystem.Business.csproj", "{B5FD7B64-9560-4A61-A09C-8E632D6696C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankSystem.Business", "BankSystem.Business\BankSystem.Business.csproj", "{B5FD7B64-9560-4A61-A09C-8E632D6696C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankSystem.Data", "BankSystem.Data\BankSystem.Data.csproj", "{13A091B5-FD79-4303-A021-287334F1FB59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankSystem.Data", "BankSystem.Data\BankSystem.Data.csproj", "{13A091B5-FD79-4303-A021-287334F1FB59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankSystem.Services", "BankSystem.Services\BankSystem.Services.csproj", "{36D3BDA0-074A-4ED4-82B7-B4903F122D70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankSystem.Services", "BankSystem.Services\BankSystem.Services.csproj", "{36D3BDA0-074A-4ED4-82B7-B4903F122D70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankSystem.Tests.UnitTests", "BankSystem.Tests.UnitTests\BankSystem.Tests.UnitTests.csproj", "{B37370AA-9105-4341-AD67-8EFE45C74A98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankSystem.Tests.UnitTests", "BankSystem.Tests.UnitTests\BankSystem.Tests.UnitTests.csproj", "{B37370AA-9105-4341-AD67-8EFE45C74A98}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{2233E806-795C-413D-84E9-2D0056639E04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{B37370AA-9105-4341-AD67-8EFE45C74A98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B37370AA-9105-4341-AD67-8EFE45C74A98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B37370AA-9105-4341-AD67-8EFE45C74A98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2233E806-795C-413D-84E9-2D0056639E04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2233E806-795C-413D-84E9-2D0056639E04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2233E806-795C-413D-84E9-2D0056639E04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2233E806-795C-413D-84E9-2D0056639E04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
