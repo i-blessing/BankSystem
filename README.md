@@ -23,7 +23,7 @@ username - 'test'
 password - 'password'
 
 ### Authenticate
-Click on the 'Authorize' button and enter the following value: Bearer <your generated token>
+Click on the 'Authorize' button and enter the following value: Bearer your-generated-token
 
 ###
 When authenticated all the endpoints on the Account controller should work.
