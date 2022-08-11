@@ -32,11 +32,13 @@ namespace BankSystem.API.Controllers
         ///
         /// </remarks>
         /// <response code="200">If the login was successful</response>
-        /// <response code="400">If the request validation fails, or credentials are invalid</response>
+        /// <response code="400">If the request validation fails</response>
+        /// <response code="401">If the credentials are invalid</response>
         [HttpPost]
         [Route("")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(ErrorMessage))]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         public async Task<IActionResult> Login([FromBody] LoginRequest request)
         {
             if (!ModelState.IsValid)
